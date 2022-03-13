@@ -3,7 +3,7 @@ WFLAGS := -Wall -Werror -Wextra
 IFLAGS := -Iinclude
 OFLAGS := -c ${WFLAGS} ${IFLAGS}
 LFLAGS := -lncurses
-CFLAGS := -o bin/myvi ${LFLAGS} ${WFLAGS}
+CFLAGS := -o bin/mivim ${LFLAGS} ${WFLAGS}
 
 .PHONY: all link clean
 
